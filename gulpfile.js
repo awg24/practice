@@ -11,3 +11,4 @@ gulp.task("scripts", function(){
 });
 
 gulp.task("default", ["scripts"]);
+gulp.task('something', ['scripts']);
